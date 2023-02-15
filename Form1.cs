@@ -16,5 +16,23 @@ namespace EmissionsRegressionApplication
         {
             InitializeComponent();
         }
+
+        Regression regression = new Regression();
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //get the value from the text box
+
+            int value = Convert.ToInt32(textBox1.Text);
+
+            //calculate the regression
+
+            double result = regression.calculateRegression(value);
+
+            //show regression to forms
+
+            textBox2.Text = result.ToString();
+
+        }
     }
 }
