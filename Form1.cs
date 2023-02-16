@@ -31,7 +31,7 @@ namespace EmissionsRegressionApplication
 
             //show regression to forms
 
-            textBox2.Text = result.ToString();
+            label6.Text = result.ToString();
 
         }
     }
