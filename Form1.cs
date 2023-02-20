@@ -12,6 +12,9 @@ namespace EmissionsRegressionApplication
 {
     public partial class Form1 : Form
     {
+        /// <summary>
+        /// X and Y values for mapping the gathered data in the chart
+        /// </summary>
         List<double> xValues = new List<double>();
         List<double> yValues = new List<double>();
         public Form1()
