@@ -26,3 +26,7 @@ With these equations and dataset, the Application will then predict the Mean Ann
 
 ![image](https://user-images.githubusercontent.com/111732588/220083783-22145730-3b4c-4987-8c01-f2e682162b96.png)
 
+##Contributors
+- Carillo, Alys Anthea
+- Enriquez, Andre
+- Quijano, Sean Venz
